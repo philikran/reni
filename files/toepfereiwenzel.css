@@ -1,0 +1,375 @@
+body,div,p,img,form,h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#menu { 
+	text-align: center;
+	list-style: none;
+	color: #2F2F2F;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	margin-top: 0.6em;
+}
+
+#menu li { 
+	display: inline;
+}
+
+#menu a:link, #menu a:visited { 
+	color: #2F2F2F;
+	text-decoration: none;
+}
+
+#menu a:hover, #menu a:active { 
+	color: #C43917;
+	text-decoration: none;
+}
+
+#langdiv { 
+	margin-right: 1em;
+	text-align: right;
+}
+
+#lang { 
+	text-align: right;
+	list-style: none;
+	color: #2F2F2F;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	margin-top: 0.1em;
+        margin: 0em;
+}
+
+#lang li { 
+	display: inline;
+}
+
+#lang a:link, #lang a:visited { 
+	color: #2F2F2F;
+	text-decoration: none;
+}
+
+#lang a:hover, #lang a:active { 
+	color: #C43917;
+	text-decoration: none;
+}
+
+table tr th { 
+	font-weight: bold;
+}
+
+body { 
+	background: #C9BDA2 url(stripe2.gif) repeat-x;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.page { 
+	width: 900px;
+}
+
+#topnav ul { 
+	padding-left: 2em;
+	margin: 0 auto;
+	text-align: right;
+	vertical-align: text-bottom;
+	color: #99846E;
+	font-family: Verdana, Arial;
+	font-size: 0.7em;
+	margin-top: 0.3em;
+}
+
+#topnav li a:link, #topnav a:visited { 
+	color: #99846E;
+	text-decoration: none;
+}
+
+#topnav li a:hover, #topnav a:active { 
+	color: #C43917;
+	text-decoration: none;
+}
+
+#logo { 
+	margin: 0 auto;
+	font-family: Union, Trebuchet MS, Arial;
+	font-size: 2.0em;
+	margin-bottom: 0.2em;
+	letter-spacing: -0.01em;
+	text-decoration: none;
+	color: #2F2F2F;
+	text-align: left;
+}
+
+#logo_black { 
+	color: #451707;
+	font-size: 1.3em;
+	font-style: normal;
+	margin-left: 15px;
+}
+
+#contentbox { 
+	background: #8D8673 url(stripe3.gif) repeat-x;
+	margin: 0 auto;
+	text-align: left;
+	min-width: 60em;
+}
+
+#padding { 
+	padding: 1em;
+	padding-top: 0.0em;
+}
+
+#innerpage { 
+	background-image: url(tontopf.png);
+	background-repeat: no-repeat;
+	padding: 1em;
+	height: 35em;
+}
+
+#main-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: left;
+	width: 38em;
+	height: 40em;
+	text-align: justify;
+	padding: 1em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#other-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: right;
+	width: 25em;
+	height: 36em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#vita-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: right;
+	width: 35em;
+	height: 40em;
+	padding: 1em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#cont-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: left;
+	width: 30em;
+	height: 36em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#impr-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: right;
+	width: 30em;
+	height: 42.7em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#kurs-site #content { 
+	background-color: #ffffff;
+	filter: Alpha(opacity=70);
+	opacity: .7;
+	float: right;
+	width: 48.5em;
+	height: 36em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#pict-site #content { 
+	background-color: #ffffff;
+	float: right;
+	width: 48.5em;
+	height: 42.7em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#content p { 
+	font-size: 1em;
+}
+
+#content h1 { 
+	font-size: 1.3em;
+	font-family: Trebuchet MS;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	color: #451707;
+}
+
+#content a:link { 
+	color: #C2361D;
+}
+
+#content a:hover, #content a:active { 
+	color: #33201D;
+}
+
+#content a:visited { 
+	color: #892614;
+}
+
+/*  Start Forms */
+#formwrap { 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 10px;
+}
+
+#form { 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+/* Rahmenfarbe angeben für Opera */
+fieldset { 
+	border: 1px solid #fff;
+}
+
+legend { 
+	border: 1px solid #fff;
+}
+
+Label { 
+	font: 11px/20px verdana, arial, helvetica, sans-serif;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.inpt { 
+	width: 300px;
+	border: 1px solid #999;
+	background-color: transparent;
+	color: #666666;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	word-spacing: 0.2em;
+}
+
+.txt { 
+	width: 300px;
+	border: 1px solid #999;
+	background-color: transparent;
+	color: #666666;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	word-spacing: 0.2em;
+}
+
+input.inpt:focus, textarea.txt:focus { 
+	color: #000;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+.senden { 
+	width: 150px;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 5px 0px 0px 0px;
+	padding: 3px 0px 3px 0px;
+	background-color: #eee;
+	color: #333;
+	text-align: center;
+	border: solid 1px #999;
+	cursor: pointer;
+}
+
+label,
+select,
+input[type=checkbox],
+input[type=radio],
+input[type=button],
+input[type=submit] { 
+	cursor: pointer;
+}
+
+.formerror { 
+	color: red;
+}
+
+/* Impressum */
+
+#supportingText { 
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	font-family: Trebuchet MS,Arial,Verdana, sans-serif;
+	color: #666;
+	background-color: #FFF;
+}
+
+a.text { 
+	text-decoration: underline;
+	border: none;
+	color: #666;
+	background-color: #fff;
+}
+
+a.text:hover,
+a.text:focus,
+a.text:active { 
+	text-decoration: underline;
+	color: #CC3333;
+	background-color: #fff;
+}
+
+a.textlink_impressum { 
+	text-decoration: underline;
+	border: none;
+	color: #666;
+	background-color: #fff;
+	line-height: 25px;
+}
+
+a.textlink_impressum:hover,
+a.textlink_impressum:focus,
+a.textlink_impressum:active { 
+	text-decoration: underline;
+	color: #CC3333;
+	background-color: #fff;
+}
+
+#supportingText p,
+#supportingText_det p { 
+	font-size: 0.65em;
+	line-height: 15px;
+}
+
+#supportingText p.Tklein,
+#supportingText_det p.Tklein { 
+	font-size: 0.55em;
+	line-height: 15px;
+}
